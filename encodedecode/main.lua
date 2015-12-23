@@ -1,7 +1,7 @@
 local ibs = require("icebergsupport")
-local script_path = ibs.join_path(ibs.CONFIG_DIR, "luamodule")
-local icon_app = ibs.join_path(script_path, "encodedecode", "app.png")
-local icon_data = ibs.join_path(script_path, "encodedecode", "data.png")
+local script_path = ibs.join_path(ibs.CONFIG_DIR, "plugins", "encodedecode")
+local icon_app = ibs.join_path(script_path, "app.png")
+local icon_data = ibs.join_path(script_path, "data.png")
 
 local url = require("socket.url")
 local mime = require("mime")
